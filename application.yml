@@ -1,0 +1,16 @@
+mail:
+  domain: gmail.com
+
+spring:
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/codelabsdb
+    username: root
+    password: root
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5Dialect
+    hibernate.ddl-auto: update
+    generate-ddl: true
+    show-sql: true
+    packages-to-scan : com
+
